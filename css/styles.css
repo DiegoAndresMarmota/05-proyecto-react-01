@@ -116,6 +116,32 @@ body {
     padding-left: 25px;
 }
 
+button,
+input[type="submit"]
+input[type="button"]{
+    width: 100px;
+    background: linear-gradient(160deg, #03228f 0%, #0b70e1 77%);
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    border-radius: 3px;
+    margin-top: 15px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 300ms;
+} 
+
+.peli-item .edit:hover{
+    background: rgb(235, 137, 10);
+}
+
+.peli-item .delete:hover{
+    background: rgb(221, 8, 8);
+}
+
 .lateral{
     grid-area: lateral;
     border: 5px solid rgb(165, 163, 163);
