@@ -96,8 +96,24 @@ body {
 
 .content{
     grid-area: content;
-    border: 5px solid rgb(165, 163, 163);
-    background: #516cf0;
+    background: rgb(190, 186, 186);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.peli-item{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px #ddd;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .lateral{
