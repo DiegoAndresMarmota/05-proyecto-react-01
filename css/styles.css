@@ -178,9 +178,30 @@ input[type="button"]{
     border-color: transparent;
 }
 
+/*Estilos para el pie de página */
 
 .footer{
     grid-area: footer;
-    border: 5px solid rgb(165, 163, 163);
-    background: #7c8de2;
+    background-color: #d1defa;
+    color: #454545;
+    border-top: 1px solid white;
+    text-align: left;
+    line-height: 68px;
+    padding-left: 25px;
+}
+
+.footer a{
+    color:#03228f;
+    text-decoration: none;
+}
+
+@media (max-width: 1085px){
+    .content{
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .peli-item{
+        width: 80%;
+    }
 }
